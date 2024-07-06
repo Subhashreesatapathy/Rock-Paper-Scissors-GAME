@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="paper.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="rock.jpg" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="paper.jpg" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="scissor.jpg" />
+      </div>
+    </div>
+
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>Comp</p>
+      </div>
+    </div>
+
+    <div class="msg-container">
+      <p id="msg">Play your move</p>
+    </div>
+
+    <div class="rating">
+        <input value="5" name="rating" id="star5" type="radio">
+        <label for="star5"></label>
+        <input value="4" name="rating" id="star4" type="radio">
+        <label for="star4"></label>
+        <input value="3" name="rating" id="star3" type="radio">
+        <label for="star3"></label>
+        <input value="2" name="rating" id="star2" type="radio">
+        <label for="star2"></label>
+        <input value="1" name="rating" id="star1" type="radio">
+        <label for="star1"></label>
+        <p class="pp"> GIVE RATING</p>
+      </div>
+
+
+    <script src="paper.js"></script>
+  </body>
+</html>
